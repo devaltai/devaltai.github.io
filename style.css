@@ -46,3 +46,17 @@ ion-icon:hover {
 ion-icon:active {
   color: red;
 }
+@media screen and (max-width: 600px) {
+  .full {
+    height: 100%;
+  }
+  .projects {
+    flex-direction: column;
+  }
+  .project {
+    margin: auto;
+  }
+  .title {
+    font: 2.5em sans-serif;
+  }
+}
