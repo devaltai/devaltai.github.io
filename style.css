@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: slategray;
 }
 .full {
   height: 100vh;
@@ -9,7 +10,6 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: slategray;
 }
 .title {
   color: white;
@@ -47,9 +47,6 @@ ion-icon:active {
   color: red;
 }
 @media screen and (max-width: 600px) {
-  .full {
-    height: 100%;
-  }
   .projects {
     flex-direction: column;
   }
